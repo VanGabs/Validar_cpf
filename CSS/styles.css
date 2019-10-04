@@ -1,0 +1,42 @@
+body{
+    background-color: white; 
+    
+}
+.imagemcpf{
+    background-image: url(/imagens/cpf-exemplo.jpg);
+    background-size: cover;
+}
+#cortexto{
+    color:black;
+    size: 2px;
+
+}
+
+.container{
+    margin-top: 120px;
+}
+
+header{
+        min-height: 100px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        border-bottom: 1px solid #ccc;
+        background: black ;
+        z-index: 2;
+        color: white;
+        text-align: center;
+        font-size: 70px;
+        
+}
+
+*{
+    font-family: Verdana;
+}
+
+.digito{
+    box-shadow: 5px;
+    height: 5px;
+    width: 5px;
+}
